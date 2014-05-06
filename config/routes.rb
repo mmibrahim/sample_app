@@ -1,6 +1,7 @@
 SampleApp::Application.routes.draw do
   get "static_pages/help"
   get "static_pages/home"
+  get "static_pages/about" 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -34,7 +35,8 @@ SampleApp::Application.routes.draw do
   #     resource :seller
   #   end
 
-  # Example resource route with more complex sub-resources:
+  # Example resource route with more complex sub-resources:require "../app/controllers/static_pages_controller"
+  
   #   resources :products do
   #     resources :comments
   #     resources :sales do
